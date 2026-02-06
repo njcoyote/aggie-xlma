@@ -6,10 +6,9 @@ A Python-based application that helps you view, analyze and interact with LMA ([
 
 1. Install Git LFS using: `git lfs install`.
 2. Clone the repository using: `git clone https://github.com/krishnacalindi/hlma.git` and move into it: `cd hlma`.
-3. Create a virtual environment: `python -m venv venv`
-4. Activate virtual enviroment. This can vary depending on your [OS](https://python.land/virtual-environments/virtualenv#Python_venv_activation).
-5. Install required libraries: `pip install -r requirements.txt`
-6. Run the application using `python hlma.py`.
+3. Install poetry using `pipx install poetry`. Instructions for installation of `pipx` can be found [here](https://pipx.pypa.io/stable/installation/).
+4. If needed, ensure poetry is configured to create virtual environments inside project folder using `poetry config virtualenvs.in-project true`. Install dependencies using `poetry install`.
+5. Run the app using `poetry run python hlma.py`. 
 
 ## Features:
 

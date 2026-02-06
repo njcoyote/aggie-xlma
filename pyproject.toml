@@ -1,0 +1,32 @@
+[project]
+name = "aggie-xlma"
+version = "0.1.0"
+description = "A Python based alternative to XLMA."
+authors = [
+    {name = "Timothy  Logan"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.4.2,<3.0.0)",
+    "pandas (>=3.0.0,<4.0.0)",
+    "joblib (>=1.5.3,<2.0.0)",
+    "pyproj (>=3.7.2,<4.0.0)",
+    "pyqt6 (>=6.10.2,<7.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "colorcet (>=3.1.0,<4.0.0)",
+    "vispy (>=0.16.1,<0.17.0)",
+    "shapely (>=2.1.2,<3.0.0)",
+    "geopandas (>=1.1.2,<2.0.0)",
+    "pyarrow (>=23.0.0,<24.0.0)"
+]
+
+[tool.poetry]
+package-mode = false 
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
