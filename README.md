@@ -4,11 +4,12 @@ A Python-based application that helps you view, analyze and interact with LMA ([
 
 ## Installation instructions:
 
-1. Install Git LFS using: `git lfs install`.
+1. Instructions for installing the git lfs by operating systems [here](https://github.com/git-lfs/git-lfs?utm_source=gitlfs_site&utm_medium=installation_link&utm_campaign=gitlfs#installing)
 2. Clone the repository using: `git clone https://github.com/krishnacalindi/hlma.git` and move into it: `cd hlma`.
 3. Install poetry using `pip install poetry`. 
-4. If needed, ensure poetry is configured to create virtual environments inside project folder using `poetry config virtualenvs.in-project true`. Install dependencies using `poetry install`.
-5. Run the app using `poetry run python hlma.py`. 
+4. Ensure poetry is configured to create virtual environments inside project folder using `poetry config virtualenvs.in-project true`.
+5. Install dependencies using `poetry install`.
+6. Run the app using `poetry run python hlma.py`. 
 
 ## Features:
 
