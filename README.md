@@ -24,3 +24,6 @@ A Python-based application that helps you view, analyze and interact with LMA ([
 ## Contact:
 
 If you would like to contribute please reach out to [Dr.Timothy Logan](https://artsci.tamu.edu/atmos-science/contact/profiles/timothy-logan.html).
+
+## References:
+McCaul , E. W., S. J. Goodman, K. M. LaCasse, and D. J. Cecil, 2009: Forecasting Lightning Threat Using Cloud-Resolving Model Simulations. Wea. Forecasting, 24, 709–729, https://doi.org/10.1175/2008WAF2222152.1.
